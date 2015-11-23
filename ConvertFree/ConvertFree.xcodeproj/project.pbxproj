@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2DEC611C031FE400F3C707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DEC601C031FE400F3C707 /* AppDelegate.swift */; };
+		FC2DEC631C031FE400F3C707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DEC621C031FE400F3C707 /* ViewController.swift */; };
+		FC2DEC661C031FE400F3C707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DEC641C031FE400F3C707 /* Main.storyboard */; };
+		FC2DEC691C031FE400F3C707 /* ConvertFree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC2DEC671C031FE400F3C707 /* ConvertFree.xcdatamodeld */; };
+		FC2DEC6B1C031FE400F3C707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2DEC6A1C031FE400F3C707 /* Assets.xcassets */; };
+		FC2DEC6E1C031FE400F3C707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DEC6C1C031FE400F3C707 /* LaunchScreen.storyboard */; };
+		FC2DEC791C031FE400F3C707 /* ConvertFreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DEC781C031FE400F3C707 /* ConvertFreeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2DEC751C031FE400F3C707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2DEC551C031FE400F3C707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2DEC5C1C031FE400F3C707;
+			remoteInfo = ConvertFree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2DEC5D1C031FE400F3C707 /* ConvertFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2DEC601C031FE400F3C707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2DEC621C031FE400F3C707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC2DEC651C031FE400F3C707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2DEC681C031FE400F3C707 /* ConvertFree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConvertFree.xcdatamodel; sourceTree = "<group>"; };
+		FC2DEC6A1C031FE400F3C707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2DEC6D1C031FE400F3C707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2DEC6F1C031FE400F3C707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2DEC741C031FE400F3C707 /* ConvertFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2DEC781C031FE400F3C707 /* ConvertFreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertFreeTests.swift; sourceTree = "<group>"; };
+		FC2DEC7A1C031FE400F3C707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2DEC5A1C031FE400F3C707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DEC711C031FE400F3C707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2DEC541C031FE400F3C707 = {
+			isa = PBXGroup;
+			children = (
+				FC2DEC5F1C031FE400F3C707 /* ConvertFree */,
+				FC2DEC771C031FE400F3C707 /* ConvertFreeTests */,
+				FC2DEC5E1C031FE400F3C707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2DEC5E1C031FE400F3C707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DEC5D1C031FE400F3C707 /* ConvertFree.app */,
+				FC2DEC741C031FE400F3C707 /* ConvertFreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2DEC5F1C031FE400F3C707 /* ConvertFree */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DEC601C031FE400F3C707 /* AppDelegate.swift */,
+				FC2DEC621C031FE400F3C707 /* ViewController.swift */,
+				FC2DEC641C031FE400F3C707 /* Main.storyboard */,
+				FC2DEC6A1C031FE400F3C707 /* Assets.xcassets */,
+				FC2DEC6C1C031FE400F3C707 /* LaunchScreen.storyboard */,
+				FC2DEC6F1C031FE400F3C707 /* Info.plist */,
+				FC2DEC671C031FE400F3C707 /* ConvertFree.xcdatamodeld */,
+			);
+			path = ConvertFree;
+			sourceTree = "<group>";
+		};
+		FC2DEC771C031FE400F3C707 /* ConvertFreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DEC781C031FE400F3C707 /* ConvertFreeTests.swift */,
+				FC2DEC7A1C031FE400F3C707 /* Info.plist */,
+			);
+			path = ConvertFreeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2DEC5C1C031FE400F3C707 /* ConvertFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2DEC7D1C031FE400F3C707 /* Build configuration list for PBXNativeTarget "ConvertFree" */;
+			buildPhases = (
+				FC2DEC591C031FE400F3C707 /* Sources */,
+				FC2DEC5A1C031FE400F3C707 /* Frameworks */,
+				FC2DEC5B1C031FE400F3C707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertFree;
+			productName = ConvertFree;
+			productReference = FC2DEC5D1C031FE400F3C707 /* ConvertFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2DEC731C031FE400F3C707 /* ConvertFreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2DEC801C031FE400F3C707 /* Build configuration list for PBXNativeTarget "ConvertFreeTests" */;
+			buildPhases = (
+				FC2DEC701C031FE400F3C707 /* Sources */,
+				FC2DEC711C031FE400F3C707 /* Frameworks */,
+				FC2DEC721C031FE400F3C707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2DEC761C031FE400F3C707 /* PBXTargetDependency */,
+			);
+			name = ConvertFreeTests;
+			productName = ConvertFreeTests;
+			productReference = FC2DEC741C031FE400F3C707 /* ConvertFreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2DEC551C031FE400F3C707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Intel;
+				TargetAttributes = {
+					FC2DEC5C1C031FE400F3C707 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FC2DEC731C031FE400F3C707 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FC2DEC5C1C031FE400F3C707;
+					};
+				};
+			};
+			buildConfigurationList = FC2DEC581C031FE400F3C707 /* Build configuration list for PBXProject "ConvertFree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2DEC541C031FE400F3C707;
+			productRefGroup = FC2DEC5E1C031FE400F3C707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2DEC5C1C031FE400F3C707 /* ConvertFree */,
+				FC2DEC731C031FE400F3C707 /* ConvertFreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2DEC5B1C031FE400F3C707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DEC6E1C031FE400F3C707 /* LaunchScreen.storyboard in Resources */,
+				FC2DEC6B1C031FE400F3C707 /* Assets.xcassets in Resources */,
+				FC2DEC661C031FE400F3C707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DEC721C031FE400F3C707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2DEC591C031FE400F3C707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DEC631C031FE400F3C707 /* ViewController.swift in Sources */,
+				FC2DEC611C031FE400F3C707 /* AppDelegate.swift in Sources */,
+				FC2DEC691C031FE400F3C707 /* ConvertFree.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DEC701C031FE400F3C707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DEC791C031FE400F3C707 /* ConvertFreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2DEC761C031FE400F3C707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2DEC5C1C031FE400F3C707 /* ConvertFree */;
+			targetProxy = FC2DEC751C031FE400F3C707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2DEC641C031FE400F3C707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2DEC651C031FE400F3C707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2DEC6C1C031FE400F3C707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2DEC6D1C031FE400F3C707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2DEC7B1C031FE400F3C707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2DEC7C1C031FE400F3C707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2DEC7E1C031FE400F3C707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvertFree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC2DEC7F1C031FE400F3C707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvertFree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC2DEC811C031FE400F3C707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvertFreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertFree.app/ConvertFree";
+			};
+			name = Debug;
+		};
+		FC2DEC821C031FE400F3C707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvertFreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertFree.app/ConvertFree";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2DEC581C031FE400F3C707 /* Build configuration list for PBXProject "ConvertFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DEC7B1C031FE400F3C707 /* Debug */,
+				FC2DEC7C1C031FE400F3C707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2DEC7D1C031FE400F3C707 /* Build configuration list for PBXNativeTarget "ConvertFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DEC7E1C031FE400F3C707 /* Debug */,
+				FC2DEC7F1C031FE400F3C707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2DEC801C031FE400F3C707 /* Build configuration list for PBXNativeTarget "ConvertFreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DEC811C031FE400F3C707 /* Debug */,
+				FC2DEC821C031FE400F3C707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC2DEC671C031FE400F3C707 /* ConvertFree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC2DEC681C031FE400F3C707 /* ConvertFree.xcdatamodel */,
+			);
+			currentVersion = FC2DEC681C031FE400F3C707 /* ConvertFree.xcdatamodel */;
+			path = ConvertFree.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC2DEC551C031FE400F3C707 /* Project object */;
+}
