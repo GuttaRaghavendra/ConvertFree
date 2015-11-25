@@ -14,6 +14,9 @@
 		FC2DEC6B1C031FE400F3C707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2DEC6A1C031FE400F3C707 /* Assets.xcassets */; };
 		FC2DEC6E1C031FE400F3C707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DEC6C1C031FE400F3C707 /* LaunchScreen.storyboard */; };
 		FC2DEC791C031FE400F3C707 /* ConvertFreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DEC781C031FE400F3C707 /* ConvertFreeTests.swift */; };
+		FC2DECBA1C04452100F3C707 /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DECB81C04452100F3C707 /* Currency+CoreDataProperties.swift */; };
+		FC2DECBB1C04452100F3C707 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DECB91C04452100F3C707 /* Currency.swift */; };
+		FC2DECBD1C044BED00F3C707 /* HttpCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DECBC1C044BED00F3C707 /* HttpCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		FC2DEC741C031FE400F3C707 /* ConvertFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2DEC781C031FE400F3C707 /* ConvertFreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertFreeTests.swift; sourceTree = "<group>"; };
 		FC2DEC7A1C031FE400F3C707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2DECB81C04452100F3C707 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC2DECB91C04452100F3C707 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		FC2DECBC1C044BED00F3C707 /* HttpCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpCurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		FC2DEC541C031FE400F3C707 = {
 			isa = PBXGroup;
 			children = (
+				FC2DECB81C04452100F3C707 /* Currency+CoreDataProperties.swift */,
+				FC2DECB91C04452100F3C707 /* Currency.swift */,
 				FC2DEC5F1C031FE400F3C707 /* ConvertFree */,
 				FC2DEC771C031FE400F3C707 /* ConvertFreeTests */,
 				FC2DEC5E1C031FE400F3C707 /* Products */,
@@ -79,6 +87,7 @@
 		FC2DEC5F1C031FE400F3C707 /* ConvertFree */ = {
 			isa = PBXGroup;
 			children = (
+				FC2DECBC1C044BED00F3C707 /* HttpCurrency.swift */,
 				FC2DEC601C031FE400F3C707 /* AppDelegate.swift */,
 				FC2DEC621C031FE400F3C707 /* ViewController.swift */,
 				FC2DEC641C031FE400F3C707 /* Main.storyboard */,
@@ -200,8 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2DECBD1C044BED00F3C707 /* HttpCurrency.swift in Sources */,
 				FC2DEC631C031FE400F3C707 /* ViewController.swift in Sources */,
+				FC2DECBB1C04452100F3C707 /* Currency.swift in Sources */,
 				FC2DEC611C031FE400F3C707 /* AppDelegate.swift in Sources */,
+				FC2DECBA1C04452100F3C707 /* Currency+CoreDataProperties.swift in Sources */,
 				FC2DEC691C031FE400F3C707 /* ConvertFree.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,10 +343,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ConvertFree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ConvertFree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Intel.ConvertFree;
