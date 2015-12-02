@@ -48,14 +48,15 @@ public class HttpCurrency: NSURLSession {
     }
     
     private func getHistoryUrl(date:NSDate?) -> String {
-        return BASE_URL + HISTORICAL + "/" + getFormattedDate(date) + ".json" + "?" + APP_ID_TAG + "=" + APP_ID
+        let url = BASE_URL + HISTORICAL + "/" + getFormattedDate(date) + ".json" + "?" + APP_ID_TAG + "=" + APP_ID
+        return url.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
     }
     
     private func getFormattedDate(date:NSDate?) -> String {
         let formatter = NSDateFormatter()
         if let date = date {
             let formatter = NSDateFormatter()
-            formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD")
+            formatter.dateFormat = "YYYY-MM-DD"
             return formatter.stringFromDate(date)
         }
         return formatter.stringFromDate(NSDate())

@@ -16,20 +16,42 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //country names
-        getInfo (.COUNTRY_LIST, response: { (dict:[NSObject : AnyObject]?) -> Void in
+    }
+    
+    //country names
+    func getCountryList() {
+        getInfo (.COUNTRY_LIST, date:nil, response: { (dict:[NSObject : AnyObject]?) -> Void in
             if let response = dict {
+                print(__FUNCTION__ + response.description)
                 self.storeCurrencyNames(response)
             }
         })
-        //currency values
-        getInfo (.CURRENCY_LIST, response: { (dict:[NSObject : AnyObject]?) -> Void in
+    }
+    
+    //currency values
+    func getCurrencyList() {
+        getInfo (.CURRENCY_LIST, date:nil, response: { (dict:[NSObject : AnyObject]?) -> Void in
             if let response = dict {
+                print(__FUNCTION__ + response.description)
                 self.storeCurrencyValues(response)
             }
         })
-        
-        
+    }
+    
+    //currency values based on date
+    func getHistoricCurrencyList() {
+        getInfo (.COUNTRY_LIST, date:nil, response: { (dict:[NSObject : AnyObject]?) -> Void in
+            if let response = dict {
+                print(__FUNCTION__ + response.description)
+                self.storeCurrencyNames(response)
+            }
+        })
+    }
+    
+    func getDate(day day:Int, month:Int, year:Int) -> NSDate?{
+        let date = NSCalendar.currentCalendar().dateWithEra(1, year: year, month: month, day: day, hour: 12, minute: 0, second: 0, nanosecond: 0)
+        print(__FUNCTION__ + ":" + date!.description)
+        return date
     }
     
     func storeCurrencyValues(response:[NSObject : AnyObject]) {
@@ -103,9 +125,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func getInfo(type:RequestType, response:([NSObject:AnyObject]?) -> Void) {
+    func getInfo(type:RequestType, date:NSDate?, response:([NSObject:AnyObject]?) -> Void) {
         do{
-            try HttpCurrency().getList(type, historicalDate: nil) { (code:Int16, data:NSData?, error:NSError?) -> Void in
+            try HttpCurrency().getList(type, historicalDate: date) { (code:Int16, data:NSData?, error:NSError?) -> Void in
                 if let error = error {
                     response(error.userInfo)
                 } else{
